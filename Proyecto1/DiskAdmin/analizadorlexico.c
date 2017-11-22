@@ -391,6 +391,10 @@ int compruebaTipo(string valor)
     {
         return TRUE;
     }
+    else if(strcmp(valor, "exit")==0)
+    {
+        return TRUE;
+    }
     return FALSE;
 }
 
